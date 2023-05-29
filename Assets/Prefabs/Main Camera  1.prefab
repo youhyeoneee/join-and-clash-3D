@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5628422957076623255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5628422957076623252}
+  - component: {fileID: 5628422957076623258}
+  - component: {fileID: 5628422957076623253}
+  - component: {fileID: 5628422957076623259}
+  - component: {fileID: 8952382135831633446}
+  m_Layer: 0
+  m_Name: Main Camera  1
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5628422957076623252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5628422957076623255}
+  m_LocalRotation: {x: 0.0104475, y: 0.00003914597, z: -0.0015741488, w: 0.9999442}
+  m_LocalPosition: {x: -0.3, y: 6.7, z: 66.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.197, y: 0.003, z: 359.82}
+--- !u!20 &5628422957076623258
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5628422957076623255}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.34901962, g: 0.57254905, b: 0.7686275, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 64
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &5628422957076623253
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5628422957076623255}
+  m_Enabled: 1
+--- !u!95 &5628422957076623259
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5628422957076623255}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8952382135831633446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5628422957076623255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b496a912d944eab8027b9d0d7483e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: -6e-45, y: 23.699991, z: -37.09998}
+  offsetRot: {x: 0.26380724, y: 0.00043719873, z: -0.0015125033, w: 0.96457416}
+  cameras:
+  - target: {fileID: 0}
+    offset: {x: 0, y: 23.7, z: -37.1}
+    rotation: {x: 30.59222, y: 0.0030220153, z: 359.82114}
+    smoothTime: 0.25
+    isHere: 0
+    velocity: {x: 1e-44, y: 0.000037657042, z: -0.00007630827}
+  - target: {fileID: 0}
+    offset: {x: 0, y: 31.3, z: -41.8}
+    rotation: {x: 48.384495, y: 0.0039163916, z: 359.8225}
+    smoothTime: 2
+    isHere: 0
+    velocity: {x: -1.0758307e-10, y: 6.9989133, z: -3.4972908}
+  - target: {fileID: 0}
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    smoothTime: 1.5
+    isHere: 0
+    velocity: {x: -4.7041445e-13, y: 9.375839, z: 13.498567}
+  - target: {fileID: 0}
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    smoothTime: 0
+    isHere: 0
+    velocity: {x: -0, y: -0.76855606, z: -0.46935028}
+  - target: {fileID: 0}
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    smoothTime: 0.5
+    isHere: 1
+    velocity: {x: 0, y: 0, z: 0}
+  isEnd: 1
+  player: {fileID: 0}
+  dyingCharacters:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  door: {fileID: 0}
